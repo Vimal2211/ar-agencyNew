@@ -27,7 +27,7 @@ import { CommonModule } from '@angular/common';
         <div class="faq-contact-title">Still have <em>questions?</em></div>
         <p class="faq-contact-text">Can't find what you're looking for? Our team is ready to help you with any specific questions about products, pricing, or ordering.</p>
         <a href="#contact" class="btn-primary" style="display:block;text-align:center;margin-bottom:1rem;">Send Us a Message</a>
-        <a href="mailto:info&#64;aragency.in" class="btn-outline" style="display:block;text-align:center;">info&#64;aragency.in</a>
+        <a href="mailto:sales.chennai&#64;aragency.in" class="btn-outline" style="display:block;text-align:center;">sales.chennai&#64;aragency.in</a>
         <div style="margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid rgba(201,168,76,0.15)">
           <div style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.8rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:600;">Office Hours</div>
           <div style="font-size:0.87rem;color:var(--text)">Mon – Sat: 9:00 AM – 6:00 PM</div>

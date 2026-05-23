@@ -5,6 +5,7 @@ export interface Product {
   desc: string;
   icon: string;
   badge: string;
+  image?: string;
 }
 
 export interface CategoryMeta {

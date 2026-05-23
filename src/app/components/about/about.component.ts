@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
   <div class="about-grid">
     <div class="about-image-wrap">
       <div class="about-img-box"></div>
-      <div class="about-img-deco"></div>
+      <!-- <div class="about-img-deco"></div> -->
       <div class="about-badge">
         <div class="about-badge-num">8+</div>
         <div class="about-badge-text">Years</div>

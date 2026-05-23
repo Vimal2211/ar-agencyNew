@@ -38,7 +38,12 @@ import { Product } from '../../models/product';
         <div class="product-grid">
           <div class="product-card" *ngFor="let product of section.value">
             <div class="product-card-img">
-              <div class="product-card-icon">{{ product.icon }}</div>
+              <img
+                [src]="getProductImage(product)"
+                [alt]="product.name"
+                class="product-card-image"
+                loading="lazy"
+              />
               <div class="product-card-overlay">
                 <button class="product-card-overlay-btn" (click)="openEnquiry(product)">Enquire Now</button>
               </div>
@@ -103,14 +108,13 @@ export class ProductsComponent implements OnInit {
 
   groupProducts() {
     this.groupedProducts = {};
-    if (this.activeCategory === 'all') {
-      this.filteredProducts.forEach(product => {
-        if (!this.groupedProducts[product.cat]) {
-          this.groupedProducts[product.cat] = [];
-        }
-        this.groupedProducts[product.cat].push(product);
-      });
-    }
+
+    this.filteredProducts.forEach(product => {
+      if (!this.groupedProducts[product.cat]) {
+        this.groupedProducts[product.cat] = [];
+      }
+      this.groupedProducts[product.cat].push(product);
+    });
   }
 
   getCategoryLabel(cat: string): string {
@@ -119,6 +123,10 @@ export class ProductsComponent implements OnInit {
 
   getCategoryMeta(cat: string) {
     return this.productService.getCategoryMeta(cat);
+  }
+
+  getProductImage(product: Product) {
+    return this.productService.getProductImage(product);
   }
 
   openEnquiry(product: Product) {
