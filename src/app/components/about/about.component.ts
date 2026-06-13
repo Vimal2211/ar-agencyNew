@@ -9,7 +9,9 @@ import { CommonModule } from '@angular/common';
 <section id="about">
   <div class="about-grid">
     <div class="about-image-wrap">
-      <div class="about-img-box"></div>
+      <div class="about-img-box">
+        <img src="assets/images/about.png" alt="About AR Agency" class="about-img">
+      </div>
       <!-- <div class="about-img-deco"></div> -->
       <div class="about-badge">
         <div class="about-badge-num">8+</div>
@@ -35,7 +37,36 @@ import { CommonModule } from '@angular/common';
   </div>
 </section>
   `,
-  styles: []
+  styles: [`
+    .about-img-box {
+      position: relative;
+      overflow: hidden;
+      background: var(--dark3);
+    }
+    .about-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+    .about-image-wrap:hover .about-img {
+      transform: scale(1.02);
+    }
+    @media (max-width: 900px) {
+      .about-img {
+        object-fit: contain;
+        background: var(--dark3);
+        padding: 1rem;
+      }
+    }
+    @media (max-width: 600px) {
+      .about-img {
+        object-fit: contain;
+        padding: 0.5rem;
+      }
+    }
+  `]
 })
 export class AboutComponent {
   features = [

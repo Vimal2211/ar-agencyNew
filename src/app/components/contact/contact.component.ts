@@ -25,21 +25,30 @@ declare global {
       <p class="section-desc">Reach out for product enquiries, bulk orders, custom requirements, or general information.</p>
       <div class="contact-info">
         <div class="contact-item">
-          <div class="contact-item-icon">📞</div>
+          <!-- <div class="contact-item-icon">📞</div> -->
+          <div class="contact-item-icon">
+            <i class="fas fa-phone"></i>
+          </div>
           <div>
             <div class="contact-item-label">Phone</div>
             <div class="contact-item-value">+91 8220617744</div>
           </div>
         </div>
         <div class="contact-item">
-          <div class="contact-item-icon">✉️</div>
+          <!-- <div class="contact-item-icon">✉️</div> -->
+          <div class="contact-item-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
           <div>
             <div class="contact-item-label">Email</div>
             <div class="contact-item-value">sales.chennai&#64;aragency.in</div>
           </div>
         </div>
         <div class="contact-item">
-          <div class="contact-item-icon">📍</div>
+          <!-- <div class="contact-item-icon">📍</div> -->
+          <div class="contact-item-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
           <div>
             <div class="contact-item-label">Address</div>
             <div class="contact-item-value">AR Agency <br>No 18/46,
@@ -48,7 +57,10 @@ declare global {
           </div>
         </div>
         <div class="contact-item">
-          <div class="contact-item-icon">💬</div>
+          <!-- <div class="contact-item-icon">💬</div> -->
+          <div class="contact-item-icon">
+            <i class="fa-brands fa-whatsapp" style="font-weight: bold;"></i>
+          </div>
           <div>
             <div class="contact-item-label">WhatsApp</div>
             <div class="contact-item-value">+91 8220617744</div>

@@ -15,24 +15,28 @@ import { NotificationService } from '../../services/notification.service';
       <p class="footer-brand-desc">Premium agency delivering quality products across multiple categories. Trusted by 200+ clients nationwide.</p>
       <div class="footer-social">
         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+        <!-- <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
             <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5Zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5Zm5.25-2.75a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25Z"/>
-          </svg>
+          </svg>   -->
+        <i class="fab fa-instagram" style="font-weight: bold; font-size: 20px;"></i>
         </a>
         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+          <!-- <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
             <path d="M6.94 8.5H3.6V20h3.34V8.5ZM5.27 7.1A1.93 1.93 0 1 0 5.28 3.2a1.93 1.93 0 0 0-.01 3.9ZM20.4 13.1c0-3.14-1.68-4.6-3.92-4.6-1.8 0-2.6 1-3.04 1.7V8.5H9.1V20h3.34v-6.2c0-1.58.3-3.1 2.25-3.1 1.92 0 1.95 1.8 1.95 3.2V20h3.36v-6.9Z"/>
-          </svg>
+          </svg> -->
+          <i class="fab fa-linkedin" style="font-weight: bold; font-size: 20px;"></i>
         </a>
         <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Twitter">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+          <!-- <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
             <path d="M18.9 3H21l-6.2 7.1L22 21h-5.7l-4.5-5.9L6.5 21H4.4l6.7-7.6L2 3h5.8l4.1 5.4L18.9 3Zm-2 16h1.6L7.1 4.9H5.3l11.6 14.1Z"/>
-          </svg>
+          </svg> -->
+          <i class="fab fa-twitter" style="font-weight: bold; font-size: 20px;"></i>
         </a>
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+          <!-- <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
             <path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.2-1.5 1.5-1.5H16V5.1c-.3 0-1.1-.1-2.1-.1-2.1 0-3.5 1.3-3.5 3.7v2.1H8v3h2.4v7h3.1Z"/>
-          </svg>
+          </svg> -->
+          <i class="fab fa-facebook" style="font-weight: bold; font-size: 20px;"></i>
         </a>
       </div>
     </div>
