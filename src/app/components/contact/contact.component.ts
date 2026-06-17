@@ -165,7 +165,7 @@ export class ContactComponent {
     }
 
     const serviceId = 'service_s2qc95s';
-    const templateId =  'template_5pj9trt';
+    const templateId =  'template_vgba0as';
     const publicKey = 'Uw-bBU_SizAeWY1JZ';
 
     if (!serviceId || !templateId || !publicKey) {
